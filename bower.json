@@ -1,0 +1,22 @@
+{
+  "name": "karma-proxy-example",
+  "homepage": "https://github.com/PortChaw/karma-proxy-example",
+  "authors": [
+    "chirgwin <geoff@portchaw.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.2"
+  }
+}
