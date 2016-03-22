@@ -1,0 +1,37 @@
+{
+  "name": "karma-proxy-example",
+  "version": "1.0.0",
+  "description": "`npm install -g karma-cli bower` `bower install`",
+  "main": "karma.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PortChaw/karma-proxy-example.git"
+  },
+  "author": "chirgwin",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/PortChaw/karma-proxy-example/issues"
+  },
+  "homepage": "https://github.com/PortChaw/karma-proxy-example#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "karma": "^0.13.22",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-mocha": "^0.2.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-sinon": "^1.0.4",
+    "mocha": "^2.4.5",
+    "phantomjs-prebuilt": "^2.1.6",
+    "sinon": "^1.17.3"
+  },
+  "dependencies": {
+    "angular": "^1.5.2"
+  }
+}
