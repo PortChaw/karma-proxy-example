@@ -9,12 +9,14 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['mocha', 'chai'],
+    frameworks: ['mocha', 'chai-as-promised', 'chai', 'sinon'],
 
 
     // list of files / patterns to load in the browser
     files: [
         'node_modules/angular/angular.js',
+        'node_modules/angular-resource/angular-resource.js',
+        'node_modules/angular-mocks/angular-mocks.js',
         './src/app.js',
         './src/**/*.js',
         './test/**/*.js'
@@ -62,6 +64,15 @@ module.exports = function(config) {
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
-    singleRun: false
+    singleRun: false,
+
+    plugins : [
+            'karma-phantomjs-launcher',
+            'karma-mocha',
+            'karma-chai',
+            'karma-sinon',
+            'karma-chai-as-promised'
+            ],
+
   });
 };

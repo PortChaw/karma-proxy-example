@@ -1,6 +1,6 @@
 ### setup
-`npm install -g karma-cli bower`
-`bower install`
+`npm install -g karma-cli`
+`npm install`
 
 ### run
 `karma start`
